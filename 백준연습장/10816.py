@@ -14,6 +14,15 @@ for card in cards:
         count[card] +=1
     else:
         count[card] = 1
+for target in targets:
+    result = count.get(target)
+
+    if result == None:
+        print(0, end = " ")
+    else : 
+        print(result, end =" ")
+
+
 
 
 
